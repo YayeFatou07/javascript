@@ -1,0 +1,56 @@
+img{
+    width: 100%;
+}
+#section1{
+    background-color: aqua;
+    padding: 200px;
+}
+.Bloc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.BlocItem{
+    background-color: yellow;
+    border: 1px black solid;
+    color: blue;
+    width: 45%;
+    margin: 20px;
+    border-radius: 10px;
+    height: 300px;
+
+}
+h2{
+    text-align: center;
+}
+.titre_bloc
+{
+    transform: rotate(90deg);
+    padding: 20% 20% 20% 20%;
+}
+button{
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Forme circulaire */
+    font-size: 24px;
+    line-height: 60px; /* Aligne le texte verticalement */
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    padding: 0; /* Enlève les marges et le padding par défaut du bouton */
+}
+img{
+    size: 1px;
+}
+
+.btn-image img {
+    display: block; /* Évite les espaces sous l'image */
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Conserve les proportions de l'image */
+}
+
